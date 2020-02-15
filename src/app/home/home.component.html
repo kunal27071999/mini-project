@@ -3,25 +3,25 @@
         <div class ="Main">
             <section class="nav-bar">
                 <div class="nav-container">
-                    <!-- <div class="brand">
-                        <a href="#"><img src="#"></a>
-                    </div> -->
+                    <span class="brand">
+                        <a routerLink="/home"><img src="../../assets/logo.png"></a>
+                    </span>
                     <nav>
                         <ul class="nav-list">
                         <li>
-                            <a href="#">Home</a>
+                            <a routerLink="/home" style="right: 130%;">Home</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a routerLink="/about" style="right: 130%;" >About</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a routerLink="/contact" style="right: 130%;" >Contact</a>
                         </li>
                         <li style="float: right;">
-                            <a href="#!">Login</a>
+                            <a routerLink= "/login" style="left: 23%;">Login</a>
                         </li>
                         <li style="float: right;">
-                            <a href="#!">SignUp</a>
+                            <a routerLink="/signup" style="left: 23%">SignUp</a>
                         </li>
                         </ul>
                     </nav>
@@ -30,6 +30,11 @@
                 <img src="../../assets/bg-people.png" class="overimg"/>
             <div class = "vectorimg">
                 <img style='height: 100%; width: 100%; object-fit: contain' src="../../assets/people.svg" alt="img not found">
+            </div>
+            <div class="maintext">
+                <h1>Know better with<br>profiling</h1>
+                <p>It's very simple, Start by searching a <br>name or email, and set what interesting<br>and useful information you can find.</p>
+                <button id ="getstarted" routerLink="/login" >Get Started &nbsp;></button>
             </div>
         </div>  
     </body>
